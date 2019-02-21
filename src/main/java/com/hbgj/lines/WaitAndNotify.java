@@ -41,7 +41,7 @@ public class WaitAndNotify {
                                 e.printStackTrace();
                             }
                         } else {
-                             commonList.add("index-"+count.addAndGet(1));
+                             commonList.add("index===>>"+count.addAndGet(1));
                             size_of_list++;
                         }
                     }
@@ -71,7 +71,7 @@ public class WaitAndNotify {
 
 
                             String e=commonList.remove(size_of_list-1);
-                            System.out.println("remove -> e :"+e);
+                            System.out.println("remove ===>> e :"+e);
 
                             size_of_list--;
                         }

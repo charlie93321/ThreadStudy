@@ -32,6 +32,7 @@ public class Test_01 {
     }
 
     public static void main(String[] args){
-
+        Test_01 test01=new Test_01();
+        test01.testSync1();
     }
 }
